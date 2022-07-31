@@ -1,0 +1,335 @@
+<div class="one-post-style">
+    <div class="post-head">
+        <div class="post-head-author">
+            <img class="post-head-img" src="imgs/profiles/profile2.png">
+            <span class="post-head-Name">AudiClub</span>
+        </div>
+        <img class="post-head-more" src="./imgs/more.png" alt="">
+    </div>
+
+    <div class="post-img">
+        <img class="post-image" src="imgs/posts/2.1.png" alt="">
+    </div>
+
+    <div class="post-bottom">
+        <div class="post-bottom-Icons">
+            <div>
+                <img class="post-bottom-Icon" src="./imgs/favorite-3-32.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/comment.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/send.png" alt="">
+            </div>
+            <img class="post-bottom-Icon" src="./imgs/archive.png" alt="">
+        </div>
+        <div class="likes">
+            <img class="likes-img" src="imgs/profiles/profile3.png" alt="">
+            <span class="likes-likers">Gefällt <b>JustSam</b> und <b>187</b></span>
+        </div>
+        <div class="comment-container">
+            <div class="comment">
+                <span class="comment-text"> <b>AudiClub</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod maxime, fugiat dolor aspernatur, sunt iusto nobis saepe perferendis eos nemo mollitia nulla, incidunt distinctio qui doloremque numquam neque nisi tenetur?</span>
+            </div>
+            <span class="comment-more">mehr</span> <br>
+            <div class="coment-allcomments-div"><span class="comment-allcomments">Alle Kommentare anzeigen</span></div>
+        </div>
+        <div class="comments" id="comments1">
+
+        </div>
+        <div class="timestamp">
+            <span class="timestamp-time">VOR 16 STUNDEN</span>
+        </div>
+    </div>
+
+    <div class="Comment-section">
+        <img class="emote" src="./imgs/emoticon-30-32.png" alt="">
+        <input class="comment-input" id="comment-input1" type="text" placeholder="Kommentieren...">
+        <button class="comment-button" onclick="addComment(1)">Posten</button>
+    </div>
+</div>
+
+<div class="one-post-style">
+    <div class="post-head">
+        <div class="post-head-author">
+            <img class="post-head-img" src="imgs/profiles/profile3.png">
+            <span class="post-head-Name">JustSam</span>
+        </div>
+        <img class="post-head-more" src="./imgs/more.png" alt="">
+    </div>
+
+    <div class="post-img">
+        <img class="post-image" src="imgs/posts/3.1.png" alt="">
+    </div>
+
+    <div class="post-bottom">
+        <div class="post-bottom-Icons">
+            <div>
+                <img class="post-bottom-Icon" src="./imgs/favorite-3-32.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/comment.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/send.png" alt="">
+            </div>
+            <img class="post-bottom-Icon" src="./imgs/archive.png" alt="">
+        </div>
+        <div class="likes">
+            <img class="likes-img" src="imgs/profiles/profile4.png" alt="">
+            <span class="likes-likers">Gefällt <b>F.Hyst</b> und <b>2.521</b></span>
+        </div>
+        <div class="comment-container">
+            <div class="comment">
+                <span class="comment-text"> <b>JustSam</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod maxime, fugiat dolor aspernatur, sunt iusto nobis saepe perferendis eos nemo mollitia nulla, incidunt distinctio qui doloremque numquam neque nisi tenetur?</span>
+            </div>
+            <span class="comment-more">mehr</span> <br>
+            <div class="coment-allcomments-div"><span class="comment-allcomments">Alle Kommentare anzeigen</span></div>
+        </div>
+        <div class="comments" id="comments2">
+
+        </div>
+        <div class="timestamp">
+            <span class="timestamp-time">VOR 16 STUNDEN</span>
+        </div>
+    </div>
+
+    <div class="Comment-section">
+        <img class="emote" src="./imgs/emoticon-30-32.png" alt="">
+        <input class="comment-input" id="comment-input2" type="text" placeholder="Kommentieren...">
+        <button class="comment-button" onclick="addComment(2)">Posten</button>
+    </div>
+</div>
+
+<div class="one-post-style">
+    <div class="post-head">
+        <div class="post-head-author">
+            <img class="post-head-img" src="imgs/profiles/profile4.png">
+            <span class="post-head-Name">F.Hyst</span>
+        </div>
+        <img class="post-head-more" src="./imgs/more.png" alt="">
+    </div>
+
+    <div class="post-img">
+        <img class="post-image" src="imgs/posts/4.1.png" alt="">
+    </div>
+
+    <div class="post-bottom">
+        <div class="post-bottom-Icons">
+            <div>
+                <img class="post-bottom-Icon" src="./imgs/favorite-3-32.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/comment.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/send.png" alt="">
+            </div>
+            <img class="post-bottom-Icon" src="./imgs/archive.png" alt="">
+        </div>
+        <div class="likes">
+            <img class="likes-img" src="imgs/profiles/profile5.png" alt="">
+            <span class="likes-likers">Gefällt <b>JustADog</b> und <b>69</b></span>
+        </div>
+        <div class="comment-container">
+            <div class="comment">
+                <span class="comment-text"> <b>F.Hyst</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod maxime, fugiat dolor aspernatur, sunt iusto nobis saepe perferendis eos nemo mollitia nulla, incidunt distinctio qui doloremque numquam neque nisi tenetur?</span>
+            </div>
+            <span class="comment-more">mehr</span> <br>
+            <div class="coment-allcomments-div"><span class="comment-allcomments">Alle Kommentare anzeigen</span></div>
+        </div>
+        <div class="comments" id="comments3">
+
+        </div>
+        <div class="timestamp">
+            <span class="timestamp-time">VOR 16 STUNDEN</span>
+        </div>
+    </div>
+
+    <div class="Comment-section">
+        <img class="emote" src="./imgs/emoticon-30-32.png" alt="">
+        <input class="comment-input" id="comment-input3" type="text" placeholder="Kommentieren...">
+        <button class="comment-button" onclick="addComment(3)">Posten</button>
+    </div>
+</div>
+
+<div class="one-post-style">
+    <div class="post-head">
+        <div class="post-head-author">
+            <img class="post-head-img" src="imgs/profiles/profile5.png">
+            <span class="post-head-Name">JustADog</span>
+        </div>
+        <img class="post-head-more" src="./imgs/more.png" alt="">
+    </div>
+
+    <div class="post-img">
+        <img class="post-image" src="imgs/posts/5.1.png" alt="">
+    </div>
+
+    <div class="post-bottom">
+        <div class="post-bottom-Icons">
+            <div>
+                <img class="post-bottom-Icon" src="./imgs/favorite-3-32.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/comment.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/send.png" alt="">
+            </div>
+            <img class="post-bottom-Icon" src="./imgs/archive.png" alt="">
+        </div>
+        <div class="likes">
+            <img class="likes-img" src="imgs/profiles/profile6.png" alt="">
+            <span class="likes-likers">Gefällt <b>BMWMotors</b> und <b>42</b></span>
+        </div>
+        <div class="comment-container">
+            <div class="comment">
+                <span class="comment-text"> <b>JustADog</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod maxime, fugiat dolor aspernatur, sunt iusto nobis saepe perferendis eos nemo mollitia nulla, incidunt distinctio qui doloremque numquam neque nisi tenetur?</span>
+            </div>
+            <span class="comment-more">mehr</span> <br>
+            <div class="coment-allcomments-div"><span class="comment-allcomments">Alle Kommentare anzeigen</span></div>
+        </div>
+        <div class="comments" id="comments4">
+
+        </div>
+        <div class="timestamp">
+            <span class="timestamp-time">VOR 16 STUNDEN</span>
+        </div>
+    </div>
+
+    <div class="Comment-section">
+        <img class="emote" src="./imgs/emoticon-30-32.png" alt="">
+        <input class="comment-input" id="comment-input4" type="text" placeholder="Kommentieren...">
+        <button class="comment-button" onclick="addComment(4)">Posten</button>
+    </div>
+</div>
+
+<div class="one-post-style">
+    <div class="post-head">
+        <div class="post-head-author">
+            <img class="post-head-img" src="imgs/profiles/profile6.png">
+            <span class="post-head-Name">BMWMotors</span>
+        </div>
+        <img class="post-head-more" src="./imgs/more.png" alt="">
+    </div>
+
+    <div class="post-img">
+        <img class="post-image" src="imgs/posts/6.1.png" alt="">
+    </div>
+
+    <div class="post-bottom">
+        <div class="post-bottom-Icons">
+            <div>
+                <img class="post-bottom-Icon" src="./imgs/favorite-3-32.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/comment.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/send.png" alt="">
+            </div>
+            <img class="post-bottom-Icon" src="./imgs/archive.png" alt="">
+        </div>
+        <div class="likes">
+            <img class="likes-img" src="imgs/profiles/profile7.png" alt="">
+            <span class="likes-likers">Gefällt <b>LionKing</b> und <b>812</b></span>
+        </div>
+        <div class="comment-container">
+            <div class="comment">
+                <span class="comment-text"> <b>BMWMotors</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod maxime, fugiat dolor aspernatur, sunt iusto nobis saepe perferendis eos nemo mollitia nulla, incidunt distinctio qui doloremque numquam neque nisi tenetur?</span>
+            </div>
+            <span class="comment-more">mehr</span> <br>
+            <div class="coment-allcomments-div"><span class="comment-allcomments">Alle Kommentare anzeigen</span></div>
+        </div>
+        <div class="comments" id="comments5">
+
+        </div>
+        <div class="timestamp">
+            <span class="timestamp-time">VOR 16 STUNDEN</span>
+        </div>
+    </div>
+
+    <div class="Comment-section">
+        <img class="emote" src="./imgs/emoticon-30-32.png" alt="">
+        <input class="comment-input" id="comment-input5" type="text" placeholder="Kommentieren...">
+        <button class="comment-button" onclick="addComment(5)">Posten</button>
+    </div>
+</div>
+
+<div class="one-post-style">
+    <div class="post-head">
+        <div class="post-head-author">
+            <img class="post-head-img" src="imgs/profiles/profile7.png">
+            <span class="post-head-Name">LionKing</span>
+        </div>
+        <img class="post-head-more" src="./imgs/more.png" alt="">
+    </div>
+
+    <div class="post-img">
+        <img class="post-image" src="imgs/posts/7.1.png" alt="">
+    </div>
+
+    <div class="post-bottom">
+        <div class="post-bottom-Icons">
+            <div>
+                <img class="post-bottom-Icon" src="./imgs/favorite-3-32.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/comment.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/send.png" alt="">
+            </div>
+            <img class="post-bottom-Icon" src="./imgs/archive.png" alt="">
+        </div>
+        <div class="likes">
+            <img class="likes-img" src="imgs/profiles/profile8.png" alt="">
+            <span class="likes-likers">Gefällt <b>SweetMemories</b> und <b>1.123</b></span>
+        </div>
+        <div class="comment-container">
+            <div class="comment">
+                <span class="comment-text"> <b>LionKing</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod maxime, fugiat dolor aspernatur, sunt iusto nobis saepe perferendis eos nemo mollitia nulla, incidunt distinctio qui doloremque numquam neque nisi tenetur?</span>
+            </div>
+            <span class="comment-more">mehr</span> <br>
+            <div class="coment-allcomments-div"><span class="comment-allcomments">Alle Kommentare anzeigen</span></div>
+        </div>
+        <div class="comments" id="comments6">
+
+        </div>
+        <div class="timestamp">
+            <span class="timestamp-time">VOR 16 STUNDEN</span>
+        </div>
+    </div>
+
+    <div class="Comment-section">
+        <img class="emote" src="./imgs/emoticon-30-32.png" alt="">
+        <input class="comment-input" id="comment-input6" type="text" placeholder="Kommentieren...">
+        <button class="comment-button" onclick="addComment(6)">Posten</button>
+    </div>
+</div>
+
+<div class="one-post-style">
+    <div class="post-head">
+        <div class="post-head-author">
+            <img class="post-head-img" src="imgs/profiles/profile8.png">
+            <span class="post-head-Name">SweetMemories</span>
+        </div>
+        <img class="post-head-more" src="./imgs/more.png" alt="">
+    </div>
+
+    <div class="post-img">
+        <img class="post-image" src="imgs/posts/8.1.png" alt="">
+    </div>
+
+    <div class="post-bottom">
+        <div class="post-bottom-Icons">
+            <div>
+                <img class="post-bottom-Icon" src="./imgs/favorite-3-32.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/comment.png" alt="">
+                <img class="post-bottom-Icon" src="./imgs/send.png" alt="">
+            </div>
+            <img class="post-bottom-Icon" src="./imgs/archive.png" alt="">
+        </div>
+        <div class="likes">
+            <img class="likes-img" src="imgs/profiles/profile1.png" alt="">
+            <span class="likes-likers">Gefällt <b>DogDiaries</b> und <b>7.498</b></span>
+        </div>
+        <div class="comment-container">
+            <div class="comment">
+                <span class="comment-text"> <b>SweetMemories</b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod maxime, fugiat dolor aspernatur, sunt iusto nobis saepe perferendis eos nemo mollitia nulla, incidunt distinctio qui doloremque numquam neque nisi tenetur?</span>
+            </div>
+            <span class="comment-more">mehr</span> <br>
+            <div class="coment-allcomments-div"><span class="comment-allcomments">Alle Kommentare anzeigen</span></div>
+        </div>
+        <div class="comments" id="comments7">
+
+        </div>
+        <div class="timestamp">
+            <span class="timestamp-time">VOR 16 STUNDEN</span>
+        </div>
+    </div>
+
+    <div class="Comment-section">
+        <img class="emote" src="./imgs/emoticon-30-32.png" alt="">
+        <input class="comment-input" id="comment-input7" type="text" placeholder="Kommentieren...">
+        <button class="comment-button" onclick="addComment(7)">Posten</button>
+    </div>
+</div>
