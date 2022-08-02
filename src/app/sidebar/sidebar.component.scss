@@ -1,0 +1,138 @@
+/* Sidebar-profile */
+
+.my-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+
+.my-profile-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    border: 3px solid rgb(223 61 119);
+    cursor: pointer;
+}
+
+.my-profile-names {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.my-profile-name {
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.my-profile-username {
+    font-size: 14px;
+    margin-top: 0.5em;
+    color: grey;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.my-profile-switch {
+    font-size: 15px;
+    color: #1ea1f6;
+    font-weight: 500;
+    margin-left: 4em;
+    cursor: pointer;
+}
+
+
+/* sidebar-suggestions */
+
+.suggestions {
+    margin-top: 2em;
+}
+
+.suggestions-foryouspan {
+    font-size: 17px;
+    color: grey;
+    cursor: pointer;
+}
+
+.suggestions-fewall {
+    font-size: 17px;
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+    margin-left: 2.5em;
+    cursor: pointer;
+}
+
+
+/* sidebar-suggestions-profiles */
+
+.suggestions-my-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.suggestions-my-profile-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.suggestions-my-profile-names {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+    min-width: 150px;
+}
+
+.suggestions-my-profile-name {
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.suggestions-my-profile-username {
+    font-size: 12px;
+    margin-top: 0.2em;
+    color: grey;
+    font-weight: 300;
+}
+
+.suggestions-my-profile-switch {
+    font-size: 15px;
+    color: #1ea1f6;
+    font-weight: 500;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+
+/* Links */
+
+.links a {
+    font-size: 14px;
+    color: #c7c7c7;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.links a:hover {
+    cursor: pointer;
+}
+
+.links {
+    padding-top: 2em;
+}
+
+.copyright span {
+    font-size: 12px;
+    color: #c7c7c7
+}
+
+.copyright {
+    padding-top: 16px;
+    padding-bottom: 30px;
+}
